@@ -1,53 +1,169 @@
 body{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 0;
-background-color: rgb(190, 190, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color:  #ECEEF1
 }
+
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     width: 100%;
-    height: 20px;
-    background-color: hotpink;
+    height: 40px;
     margin-bottom: 50px;
+    padding: 10px 20px 0px 0px;
 }
+
+header button{
+    font-size: 15px;
+    width: 115px;
+    border-radius: 10px;
+    text-align: center;  
+    border: 1px solid black;
+    padding: 5px; 
+    background-color: blue;
+    color: white;
+}
+
+header div{
+  margin-right: 10px;
+  color: #505050;
+}
+
+header p{
+    margin: 0;   
+}
+
+.fa-lock{
+    margin-right: 5px;
+}
+.password{
+    color: blue;
+}
+
 .top{
-    width: 20%;
-    height: 50px;
-    background-color: green;
+    background-color:  #ECEEF1;
+    margin: 0;
 }
+
+.top img{
+    height: 100%;
+    position: relative;
+    top: 10px;
+   
+}
+
 .form{
-  width: 30%;
     padding: 15px;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    border: 1px solid #c7c7c7;
 }
+
 h1{
     font-size: 22px;
-    color: rgb(54, 54, 54);
+    font-weight: 200;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #393A3D;
 }
+
 .account{
-    font-size: 15px;
-    color: rgb(187, 187, 187);
+    font-size: 16px;
+    color: #666769;
     margin: 0;
 }
+
 .learn{
-    color: blue;
-    margin: 0;
+    color: #0077C5;
+    margin: 0; 
 }
+
 form {
     display: flex;
     flex-direction: column;
-   text-align: left;
-    height: 643px;
+    text-align: left;
     width: 380px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    border-color: rgb(199, 199, 199);
-    border-style: solid;
-    border-width: 1px;
+    
 }
-#disclaimer{
+
+#center{
     text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    color: #444;
+}
+
+label{
+    font-weight: normal;
+    color: #363636;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+input{
+    height: 34px;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    
+}
+
+.standard{
+   margin: 0;
+   font-size: 15px;
+   color: #444;
+}
+
+form button{
+    background: #0077C5;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 20px;
+    
+}
+.fa-lock-alt{
+    color: white;
+}
+.policy{
+    text-align: center;
+    font-size: 15px;
+    width: 450px;
+    background-color:  #ECEEF1;
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    color: #444;
+    
+    
+    
+}
+.spread{
+    text-align: center;
+    width: 75%;
+    font-size: 15px;
+    background-color:  #ECEEF1;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #444;
+}
+.spread p{
+    margin: 5px;
+}
+footer{
+    background-color: red;
+    width: 100%;
+}
+.privacy{
+    float: right;
+    background-color: green;
 }
