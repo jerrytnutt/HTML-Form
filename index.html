@@ -3,64 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/blue.ico" >
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6c78170d73.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Intuit Accounts</title>
 </head>
 <body>
-
-    <header>
-   <div>
-     <p>Already have an Intuit account?</p>
-     <p class="password">I forgot my User ID or Password</p>
+  <header>
+    <div>
+      <p>Already have an Intuit account?</p>
+      <p class="password">I forgot my User ID or Password</p>
     </div>
     <button><i class="fas fa-lock"></i>Sign In</button>
-    </header>
+  </header>
+  <div class="topImage"> <img src="images/init.png" alt=""> </div>
+  <section class="form">
+    <h1>Create an Intuit account</h1>
+      <p class="account">One account for everything Intuit, including Mint.</p>
+      <p class="learn">Learn More</p>
 
-    <div class="top"> <img src="images/init.png" alt=""> </div>
-
-    <section class="form">
-        <h1>Create an Intuit account</h1>
-        <p class="account">One account for everything Intuit, including Mint.</p>
-        <p class="learn">Learn More</p>
-        
-         
-        <form>
+  <form>
+    <label for="email">Email address</label>
+    <input type="email" name="email" id="email" />
             
-            <label for="email">Email address</label>
-            <input type="email" name="email" id="email" />
+    <label for="phone">Phone (recommended)</label>
+    <input type="tel" name="phone" id="phone" />
+    <p class="standard">Standard call, message, or data rates may apply.</p>
             
-            <label for="phone">Phone (recommended)</label>
-            <input type="tel" name="phone" id="phone" />
-            <p class="standard">Standard call, message, or data rates may apply.</p>
-            
-            <label for="pass">Password</label>
-            <input type="password" name="pass" id="pass" />
+    <label for="pass">Password</label>
+    <input type="password" name="pass" id="pass" />
            
-            
-            <button id="create-button"><i class="fas fa-lock"></i>Create Account</button>
-            <p id="center">By clicking Create Account, you agree to our <a href="#">Terms</a> <br>and have read and acknowledge our <a href="#">Global Privacy Statement</a></p>
-            
-        </form>
+    <button id="create-button"><i class="fas fa-lock"></i>Create Account</button>
+    <p id="center">By clicking Create Account, you agree to our <a href="#">Terms</a> <br>and have read and acknowledge our <a href="#">Global Privacy Statement</a></p>
+   </form>
         
-    </section>
-    <div class="policy">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></div>
-    <div class="spread">
-       <p> Legal Privacy Security</p>
-<p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-<p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-</div>
+  </section>
+  <div class="policy">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></div>
+  <div class="spread">
+    <p> Legal Privacy Security</p>
+    <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </div>
     </div>
-    <footer>
-        <div class="privacy">
-          <p>Privacy</p>
-        
-         </div>
-        
-          
-     
-    </footer>
+  
+  <footer>
+    <div class="privacy">
+    <a href="#">Privacy</a>
+    </div>
+  </footer>
     
 </body>
 </html>

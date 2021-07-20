@@ -23,7 +23,7 @@ header button{
     text-align: center;  
     border: 1px solid black;
     padding: 5px; 
-    background-color: blue;
+    background-color: #0077C5;
     color: white;
 }
 
@@ -43,12 +43,12 @@ header p{
     color: blue;
 }
 
-.top{
+.topImage{
     background-color:  #ECEEF1;
     margin: 0;
 }
 
-.top img{
+.topImage img{
     height: 100%;
     position: relative;
     top: 10px;
@@ -60,6 +60,7 @@ header p{
     text-align: center;
     background-color: rgb(255, 255, 255);
     border: 1px solid #c7c7c7;
+    border-bottom: none;
 }
 
 h1{
@@ -86,11 +87,10 @@ form {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 380px;
+    width: 400px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    padding: 30px;
-    
+    padding: 20px;
 }
 
 #center{
@@ -135,18 +135,18 @@ form button{
 .fa-lock-alt{
     color: white;
 }
+
 .policy{
     text-align: center;
     font-size: 15px;
-    width: 450px;
+    width: 430px;
     background-color:  #ECEEF1;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #c7c7c7;
-    color: #444;
-    
-    
-    
+    border-top: none;
+    color: #8d9096;  
 }
+
 .spread{
     text-align: center;
     width: 75%;
@@ -160,10 +160,17 @@ form button{
     margin: 5px;
 }
 footer{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 100%;
+    padding-left: 30px;
+    height: 70px;
 }
 .privacy{
-    float: right;
-    background-color: green;
+    float: left;
+    position: relative;
+    top: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.privacy a{
+    text-decoration: none;
 }
